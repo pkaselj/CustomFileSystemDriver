@@ -22,13 +22,13 @@ all: build-debug
 $(EXECUTABLE): $(OBJECTS) $(EXEC_SOURCE)
 	$(CC) $(CFLAGS) -o $@ $^
 
-$(OBJECTS): $(SOURCES)
-	$(CC) $(CLIBFLAG) $(CFLAGS) -o $@ $^
+$(OUTDIR)/%.o: $(SRC)/%.c
+	$(CC) $(CLIBFLAG) -I$(INCLUDE) $(CFLAGS) -o $@ $^
 
 build-debug: $(OUTDIR) $(EXECUTABLE)
 	@echo EXE: $(EXECUTABLE)
-	@echo SOURCES: $(SOURCES)
-	@echo INCLUDES: $(INCLUDES)
+#	@echo SOURCES: $(SOURCES)
+#	@echo INCLUDES: $(INCLUDES)
 	@echo OBJECTS: $(OBJECTS)
 
 

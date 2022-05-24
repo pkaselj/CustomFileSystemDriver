@@ -1,7 +1,5 @@
 #include "../include/logger.h"
-
-#include <stdio.h>
-#include <stdlib.h>
+#include "../include/common_libs.h"
 
 #define ISSET(FLAGS, LOG_FLAG) ((FLAGS & ~LOG_FLAG) != 0) 
 
