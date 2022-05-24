@@ -23,7 +23,7 @@ $(EXECUTABLE): $(OBJECTS) $(EXEC_SOURCE)
 	$(CC) $(CFLAGS) -o $@ $^
 
 $(OUTDIR)/%.o: $(SRC)/%.c
-	$(CC) $(CLIBFLAG) -I$(INCLUDE) $(CFLAGS) -o $@ $^
+	$(CC) $(CLIBFLAG) -I$(INCLUDE) $(CFLAGS) -o $@ $<
 
 build-debug: $(OUTDIR) $(EXECUTABLE)
 	@echo EXE: $(EXECUTABLE)
