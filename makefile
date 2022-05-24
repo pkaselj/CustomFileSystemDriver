@@ -1,6 +1,6 @@
 CC := gcc
 CFLAGS := -Wall -O0 -std=c99 -g
-CLIBFLAG := -shared
+CLIBFLAG := -c
 
 OUTDIR := build
 
@@ -23,7 +23,7 @@ $(EXECUTABLE): $(OBJECTS) $(EXEC_SOURCE)
 	$(CC) $(CFLAGS) -o $@ $^
 
 $(OBJECTS): $(SOURCES)
-	$(CC) -c $(CFLAGS) -o $@ $^
+	$(CC) $(CLIBFLAG) $(CFLAGS) -o $@ $^
 
 build-debug: $(OUTDIR) $(EXECUTABLE)
 	@echo EXE: $(EXECUTABLE)
