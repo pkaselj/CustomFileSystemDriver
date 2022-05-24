@@ -1,0 +1,508 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Tue May 24 22:41:44 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+QTMSBUILD = C:\Users\KASO\AppData\Local\QtMsBuild
+# makefile (from `makefile', line 8)
+SRC := src
+# environment
+EMBEST_IDE = A:\EmbestIDE
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+CUDA_PATH_V11_5 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+PL 
+ATFORMIO_IDE = 2.4.3
+# makefile (from `makefile', line 13)
+INCLUDES := include/common.h include/logger.h
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := a:/PRIBACIT/FileSystem
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# makefile (from `makefile', line 2)
+CFLAGS := -Wall -O0 -std=c99 -g
+# environment
+ONEDRIVE = A:\OneDrive - Fakultet elektrotehnike, strojarstva i brodogradnje
+# environment
+PUBLIC = C:\Users\Public
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+TMP = C:\Users\KASO\AppData\Local\Temp
+# makefile (from `makefile', line 12)
+SOURCES := src/logger.c
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-0bef75ed-7377-426a-bf4e-8bcb2b2510de-sock
+# environment
+VSCODE_CWD = A:\PRIBACIT\FileSystem
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\KASO
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STA 
+CK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# environment
+MAKE_HOME = c:\Program Files (x86)\GnuWin32\bin\
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6816_ABLLGUWQTEOPALXV
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = KASO
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.5
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = KASO
+# environment
+KMP_DUPLICATE_LIB_OK = TRUE
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# makefile (from `makefile', line 5)
+OUTDIR := build
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\KASO\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\KASO
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = KASO
+# environment
+MAKELEVEL := 0
+# environment
+PLATFORMIO_PATH = C:\Users\KASO\.platformio\penv\Scripts;C:\Users\KASO\.platformio\penv;C:\Users\KASO\.platformio\python3;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\libnvvp;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;A:\Program Files\MATLAB\R2020a\bin;A:\Program Files\PuTTY\;A:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\KASO\Desktop\SQLite\;C:\Program Files\dotnet\;A:\Qt\5.15.1\msvc2019_64\bin\;A:\Qt\5.15.1\msvc2019_64\plugins\platforms;A:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;;A:\Program Files\CMake\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Java\jdk-15\bin;c:\Program Files (x86)\GnuWin32\bin\;c:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\Hostx64\x64\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.3.1\;C:\Users\KASO\.cargo\bin;C:\Users\KASO\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\KASO\AppData\Local\Programs\Python\Python39\;C:\Users\KASO\AppData\Roaming\ActiveState\bin;A:\Program Files (x86)\ActiveState Komodo IDE 12\;A:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;C:\Users\KASO\.dotnet\tools;C:\Users\KASO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KASO\AppData\Roaming\npm;C:\Mingw64\bin;A:\Program Files\Graphviz 2.44.1\bin;A:\Program Files\MiKTeX\miktex\bin\x64\;A:\Program Files (x86)\Nmap;C:\Users\KASO\.dotnet\tools;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\libnvvp;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;A:\Program Files\MATLAB\R2020a\bin;A:\Program Files\PuTTY\;A:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\KASO\Desktop\SQLite\;C:\Program Files\dotnet\;A:\Qt\5.15.1\msvc2019_64\bin\;A:\Qt\5.15.1\msvc2019_64\plugins\platforms;A:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;;A:\Program Files\CMake\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Java\jdk-15\bin;c:\Program Files (x86)\GnuWin32\bin\;c:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\Hostx64\x64\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.3.1\;C:\Users\KASO\.cargo\bin;C:\Users\KASO\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\KASO\AppData\Local\Programs\Python\Python39\;C:\Users\KASO\AppData\Roaming\ActiveState\bin;A:\Program Files (x86)\ActiveState Komodo IDE 12\;A:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;C:\Users\KASO\.dotnet\tools;C:\Users\KASO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KASO\AppData\Roaming\npm;C:\Mingw64\bin;A:\Program Files\Graphviz 2.44.1\bin;A:\Program Files\MiKTeX\miktex\bin\x64\;A:\Program Files (x86)\Nmap;C:\Users\KASO\.dotnet\tools
+# environment
+INTELLIJ IDEA COMMUNITY EDITION = A:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\libnvvp;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;A:\Program Files\MATLAB\R2020a\bin;A:\Program Files\PuTTY\;A:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\KASO\Desktop\SQLite\;C:\Program Files\dotnet\;A:\Qt\5.15.1\msvc2019_64\bin\;A:\Qt\5.15.1\msvc2019_64\plugins\platforms;A:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;;A:\Program Files\CMake\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Java\jdk-15\bin;c:\Program Files (x86)\GnuWin32\bin\;c:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\Hostx64\x64\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.3.1\;C:\Users\KASO\.cargo\bin;C:\Users\KASO\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\KASO\AppData\Local\Programs\Python\Python39\;C:\Users\KASO\AppData\Roaming\ActiveState\bin;A:\Program Files (x86)\ActiveState Komodo IDE 12\;A:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;C:\Users\KASO\.dotnet\tools;C:\Users\KASO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KASO\AppData\Roaming\npm;C:\Mingw64\bin;A:\Program Files\Graphviz 2.44.1\bin;A:\Program Files\MiKTeX\miktex\ 
+bin\x64\;A:\Program Files (x86)\Nmap;C:\Users\KASO\.dotnet\tools
+# environment
+QT_DEVICE_PIXEL_RATIO = auto
+# makefile (from `makefile', line 1)
+CC := gcc
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk-17.0.1
+# environment
+ONEDRIVECOMMERCIAL = A:\OneDrive - Fakultet elektrotehnike, strojarstva i brodogradnje
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `makefile', line 7)
+INCLUDE := include
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+JD2_HOME = C:\Users\KASO\AppData\Local\JDownloader 2.0
+# environment
+LOCALAPPDATA = C:\Users\KASO\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
+# default
+MAKE_COMMAND := make.exe
+# environment
+NVCUDASAMPLES11_5_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.5
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\03654474143a3f1e17e3cc58ba9fafd3-1.67.2-main-sock
+# environment
+TEMP = C:\Users\KASO\AppData\Local\Temp
+# environment
+HOMEPATH = \Users\KASO
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+MSSQL_PATH = C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;
+# makefile (from `makefile 
+', line 3)
+CLIBFLAG := -shared
+# automatic
++F = $(notdir $+)
+# automatic
+%F = $(notdir $%)
+# environment
+APPDATA = C:\Users\KASO\AppData\Roaming
+# environment
+__COMPAT_LAYER = RunAsAdmin
+# environment
+MSVC_X64_HOME = c:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\Hostx64\x64\
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# makefile (from `makefile', line 10)
+EXECUTABLE := build/main.exe
+# environment
+MKL_SERIAL = YES
+# environment
+LC_ALL = C
+# makefile (from `makefile', line 11)
+EXEC_SOURCE := main.c
+# automatic
+^F = $(notdir $^)
+# environment
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+PROCESSOR_REVISION = 9e0a
+# environment
+QTDIR = A:\Qt\5.15.1\msvc2019_64\
+# makefile (from `makefile', line 15)
+OBJECTS :=  build/logger.o
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL 
+ = 6
+# environment
+PT7HOME = A:\Program Files\Cisco Packet Tracer 7.3.1
+# environment
+VSCODE_PID = 6816
+# environment
+USERDOMAIN_ROAMINGPROFILE = KASO
+# variable set hash-table stats:
+# Load=121/1024=12%, Rehash=0, Collisions=20/161=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# : could not be stat'd.
+# A:\Qt\5.15.1\msvc2019_64\bin\: could not be stat'd.
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1635970846): 6 files, no impossibilities.
+# A:\Program Files\MATLAB\R2020a\bin (key A:/Program Files/MATLAB/R2020a/bin, mtime 1585690923): 14 files, no impossibilities.
+# C:\Program Files\Java\jdk-17.0.1\bin (key C:/Program Files/Java/jdk-17.0.1/bin, mtime 1635970840): 123 files, no impossibilities.
+# C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\ (key C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/, mtime 1596286952): 40 files, no impossibilities.
+# C:\Users\KASO\.cargo\bin 
+ (key C:/Users/KASO/.cargo/bin, mtime 1634109616): 14 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\150\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/150/Tools/Binn/, mtime 1596286965): 13 files, no impossibilities.
+# include (key a:/PRIBACIT/FileSystem/include, mtime 1653422198): 4 files, no impossibilities.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1567659083): 30 files, no impossibilities.
+# C:\WINDOWS\System32\Wbem 
+ (key C:/WINDOWS/System32/Wbem, mtime 1593707846): 174 files, no impossibilities.
+# . (key a:/PRIBACIT/FileSystem, mtime 1653423918): 8 files, no impossibilities.
+# A:\Program Files\Microchip\xc8\v2.31\bin (key A:/Program Files/Microchip/xc8/v2.31/bin, mtime 1621353184): 11 files, no impossibilities.
+# C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility (key C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility, mtime 1625681173): 11 files, no impossibil 
+ities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1568647292): 10 files, no impossibilities.
+# C:\Users\KASO\AppData\Local\Programs\Python\Python39\ (key C:/Users/KASO/AppData/Local/Programs/Python/Python39/, mtime 1643235178): 19 files, no impossibilities.
+# src (key a:/PRIBACIT/FileSystem/src, mtime 1653423317): 3 files, no impossibilities.
+# C:\Users\KASO\Desktop\SQLite\ (key C:/Users/KASO/Desktop/SQLite/, mtime 1608218648): 
+ 5 files, no impossibilities.
+# C:\Users\KASO\AppData\Local\Programs\Python\Python39\Scripts\ (key C:/Users/KASO/AppData/Local/Programs/Python/Python39/Scripts/, mtime 1648915464): 47 files, no impossibilities.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\bin (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.5/bin, mtime 1638577910): 44 files, no impossibilities.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1600557549): 11 files, no impossibilities.
+# A:\Program Files (x86)\Nmap (key A:/Program Files (x86)/Nmap, mtime 1626183194): 37 files, no impossibilities.
+# C:\Users\KASO\.dotnet\tools: could not be stat'd.
+# A:\Program Files\Graphviz 2.44.1\bin (key A:/Program Files/Graphviz 2.44.1/bin, mtime 1607000484): 48 files, no impossibilities.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# A:\Program Files\PuTTY\ (key A:/Program Files/PuTTY/, mtime 1586984253): 12 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Progra 
+m Files (x86)/Common Files/Oracle/Java/javapath, mtime 1635964403): 5 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.3.1\ (key C:/Program Files/NVIDIA Corporation/Nsight Compute 2021.3.1/, mtime 1638577448): 12 files, no impossibilities.
+# C:\Mingw64\bin (key C:/Mingw64/bin, mtime 1612214830): 556 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1594421386): 4 files, no i 
+mpossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1652374318): 128 files, no impossibilities.
+# C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\ (key C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/, mtime 1596286965): 11 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/, mtime 1596286965): 7 files, no impossibilities.
+# C:\Program Files\Microsoft\Web Platform Installer\ (key C:/Program Files/Microsoft/Web Platform Installer/, mtime 1632296323): 26 files, no impossibilities.
+# C:\Program Files\Intel\WiFi\bin\ (key C:/Program Files/Intel/WiFi/bin/, mtime 1569426288): 37 files, no impossibilities.
+# C:\Program Files\Common Files\Intel\WirelessCommon\ (key C:/Program Files/Common Files/Intel/WirelessCommon/, mtime 1569426263): 7 files, no impossibilities.
+# c:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\Hostx64\x64\: could 
+ not be stat'd.
+# C:\Program Files\Microsoft SQL Server\150\DTS\Binn\ (key C:/Program Files/Microsoft SQL Server/150/DTS/Binn/, mtime 1596286967): 46 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1646442365): 11 files, no impossibilities.
+# A:\Program Files\MiKTeX\miktex\bin\x64\ (key A:/Program Files/MiKTeX/miktex/bin/x64/, mtime 1608054670): 668 files, no impossibilities.
+# C:\Users\KASO\AppData\Roaming\ActiveState\bin (key C:/Users/KASO/AppData/Roaming/ActiveState/bin, mtime 1587214455): 3 files, no impossibilities.
+# A:\Program Files\Git\cmd (key A:/Program Files/Git/cmd, mtime 1600556655): 8 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1653415277): 3310 files, no impossibilities.
+# A:\Qt\5.15.1\msvc2019_64\plugins\platforms: could not be stat'd.
+# A:\Program Files\CMake\bin (key A:/Program Files/CMake/bin, mtime 1604708900): 7 files, no impossibilities.
+# C:\Users\KASO\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Use 
+rs/KASO/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1653416272): 4 files, no impossibilities.
+# c:\Program Files (x86)\GnuWin32\bin\ (key c:/Program Files (x86)/GnuWin32/bin/, mtime 1636105514): 5 files, no impossibilities.
+# C:\Program Files\Java\jdk-15\bin: could not be stat'd.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\libnvvp (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.5/libnvvp, mtime 1638577845): 14 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporatio 
+n\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1568647301): 5 files, no impossibilities.
+# C:\Users\KASO\AppData\Roaming\npm (key C:/Users/KASO/AppData/Roaming/npm, mtime 1642634275): 33 files, no impossibilities.
+# A:\Program Files (x86)\ActiveState Komodo IDE 12\: could not be stat'd.
+# A:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin: could not be stat'd.
+
+# 5591 files, no impossibilities in 53 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# 
+ Files
+
+all: build-debug
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+# Not a target:
+src/logger.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-24 22:35:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: build-debug clean all run run-debug
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-24 22:36:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#   
+File has not been updated.
+
+build-debug: build build/main.exe
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build-debug
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := build build/main.exe
+# automatic
+# | := 
+# automatic
+# < := build
+# automatic
+# ^ := build build/main.exe
+# automatic
+# ? := build build/main.exe
+# varia 
+ble set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/14=21%
+#  commands to execute (from `makefile', line 29):
+	@echo EXE: $(EXECUTABLE)
+	@echo SOURCES: $(SOURCES)
+	@echo INCLUDES: $(INCLUDES)
+	@echo OBJECTS: $(OBJECTS)
+	
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-24 22:37:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build:
+#  Implicit rule search has not been d 
+one.
+#  Last modified 2022-05-24 22:36:10
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `makefile', line 36):
+	mkdir $(OUTDIR)
+	
+
+build/main.exe: build/logger.o main.c
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-24 22:36:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `makefile', line 23):
+	$(CC) $(CFLAGS) -o $@ $^
+	
+
+# Not a target:
+.SUFFI 
+XES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run-debug:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 45):
+	gdb $(EXECUTABLE)
+	
+
+run:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from ` 
+makefile', line 42):
+	./$(EXECUTABLE)
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 39):
+	del $(OUTDIR)
+	
+
+build/logger.o: src/logger.c
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-24 22:36:03
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to exec 
+ute (from `makefile', line 26):
+	$(CC) -c $(CFLAGS) -o $@ $^
+	
+
+# files hash-table stats:
+# Load=14/1024=1%, Rehash=0, Collisions=0/38=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue May 24 22:41:44 2022
+
+ 
