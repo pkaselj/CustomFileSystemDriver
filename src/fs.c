@@ -37,13 +37,15 @@ typedef struct _HFILE {
 
 HFS* CreateFileSystemDriverInstance(const char* szFSRootPath)
 {
+    HFS* pFileSystemHandle = NULL; // Required because of error handling goto
+
     if(szFSRootPath == NULL)
     {
         LogWarning(_DEBUG_MSG("Invalid name passed for FileSystem instance!"));
         goto error;
     }
     
-    HFS* pFileSystemHandle = malloc(sizeof(HFS));
+    pFileSystemHandle = malloc(sizeof(HFS));
 
     if(pFileSystemHandle == NULL)
     {
