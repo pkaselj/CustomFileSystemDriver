@@ -4,6 +4,9 @@
 #define IN
 #define OUT
 
+#define GLOBAL
+#define PRIVATE static
+
 #define BIT(X) 1 << X
 
 typedef enum {

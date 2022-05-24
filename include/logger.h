@@ -15,16 +15,14 @@ typedef enum {
 #define LOG_VERBOSITY_NORMAL    (WARNING | SUCCESS | INFO)
 #define LOG_VERBOSITY_DEBUG     (WARNING | SUCCESS | INFO | DEBUG)
 
-typedef struct _HLOGGER HLOGGER;
+ERROR_E InitializeLogger();
+ERROR_E DeinitializeLogger();
+ERROR_E SetLoggerLevel(LOG_LEVEL_FLAGS fLogLevel);
 
-// LOG_LEVEL_FLAGS = INFO & WARNING
-HLOGGER* CreateLoggerInstance(LOG_LEVEL_FLAGS fLevel);
-ERROR_E DestroyLoggerInstance(HLOGGER* pHandle);
-
-ERROR_E LogWarning(HLOGGER* pHandle, const char* message);
-ERROR_E LogError(HLOGGER* pHandle, const char* message);
-ERROR_E LogInfo(HLOGGER* pHandle, const char* message);
-ERROR_E LogDebug(HLOGGER* pHandle, const char* message);
-ERROR_E LogSuccess(HLOGGER* pHandle, const char* message);
+ERROR_E LogWarning(const char* message);
+ERROR_E LogError(const char* message);
+ERROR_E LogInfo(const char* message);
+ERROR_E LogDebug(const char* message);
+ERROR_E LogSuccess(const char* message);
 
 #endif // !LOGGER_H
