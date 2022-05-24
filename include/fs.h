@@ -19,6 +19,6 @@ ERROR_E CloseFile(HFS* pFSHandle, HFILE* pFileHandle);
 size_t ReadFile(HFILE* pFileHandle, size_t iBufferLength, OUT uint8_t* pBuffer);
 
 // Returns bytes written
-ERROR_E WriteFile(HFILE* pFileHandle, size_t iBufferLength, uint8_t* pBuffer);
+size_t WriteFile(HFILE* pFileHandle, size_t iBufferLength, uint8_t* pBuffer);
 
 #endif

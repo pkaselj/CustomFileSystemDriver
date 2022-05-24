@@ -18,29 +18,30 @@ HFS* CreateFileSystemDriverInstance(const char* szFSRootPath)
     {
         return NULL;
     }
+    return NULL;
 }
 
 ERROR_E DestroyFileSystemDriverInstance(HFS* pFSHandle)
 {
-
+    return NOK;
 }
 
 ERROR_E OpenFile(HFS* pFSHandle, const char* szFileName, OUT HFILE** pFileHandleContainer)
 {
-
+    return NOK;
 }
 
 ERROR_E CloseFile(HFS* pFSHandle, HFILE* pFileHandle)
 {
-
+    return NOK;
 }
 
 size_t ReadFile(HFILE* pFileHandle, size_t iBufferLength, OUT uint8_t* pBuffer)
 {
-
+    return 0;
 }
 
-ERROR_E WriteFile(HFILE* pFileHandle, size_t iBufferLength, uint8_t* pBuffer)
+size_t WriteFile(HFILE* pFileHandle, size_t iBufferLength, uint8_t* pBuffer)
 {
-
+    return 0;
 }

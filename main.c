@@ -4,18 +4,18 @@
 int main()
 {
     
-    HLOGGER* pLogger = CreateLoggerInstance(LOG_VERBOSITY_DEBUG);
-    if(pLogger == NULL)
+    ERROR_E err = InitializeLogger(LOG_VERBOSITY_DEBUG);
+    if(err != OK)
     {
         exit(-1);
     }
 
 
-    ERROR_E err = LogDebug(pLogger, "This is an example test message!");
-    err = LogInfo(pLogger, "Example info message.");
+    err = LogDebug("This is an example test message!");
+    err = LogInfo("Example info message.");
 
 
-    DestroyLoggerInstance(pLogger);
+    DeinitializeLogger();
 
     system("PAUSE");
 }
