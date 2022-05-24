@@ -40,14 +40,15 @@ HFS* CreateFileSystemDriverInstance(const char* szFSRootPath)
     if(szFSRootPath == NULL)
     {
         LogWarning(_DEBUG_MSG("Invalid name passed for FileSystem instance!"));
-        return NULL;
+        goto error;
     }
     
     HFS* pFileSystemHandle = malloc(sizeof(HFS));
 
     if(pFileSystemHandle == NULL)
     {
-        return NULL;
+        LogWarning(_DEBUG_MSG("Could not malloc space for FileSystem driver!"));
+        goto error;
     }
 
     strncpy(pFileSystemHandle->m_szName, szFSRootPath, MAX_STRING_BUFFER_SIZE);
@@ -55,13 +56,22 @@ HFS* CreateFileSystemDriverInstance(const char* szFSRootPath)
     pFileSystemHandle->m_pFile = fopen(pFileSystemHandle->m_szName, MODE_READ_BINARY);
     if(pFileSystemHandle->m_pFile == NULL)
     {
-        return NULL;
+        LogWarning(_DEBUG_MSG("Could not open specified FileSystem file in \"" MODE_READ_BINARY "\" mode."));
+        goto error;
     }
 
+    return pFileSystemHandle;
 
+error:
+    if(pFileSystemHandle != NULL)
+    {
+        if(pFileSystemHandle->m_pFile != NULL)
+        {
+            fclose(pFileSystemHandle->m_pFile);
+        }
+        free(pFileSystemHandle);
+    }
     return NULL;
-    
-
 }
 
 ERROR_E DestroyFileSystemDriverInstance(HFS* pFSHandle)
