@@ -32,17 +32,6 @@ typedef struct _HLOGGER {
 /*                            FUNCTION DEFINITIONS                            */
 /* -------------------------------------------------------------------------- */
 
-/* -------------------------------- EXPORTED -------------------------------- */
-
-
-ERROR_E InitializeLogger();
-ERROR_E DeinitializeLogger();
-ERROR_E SetLoggerLevel(LOG_LEVEL_FLAGS fLogLevel);
-ERROR_E LogWarning(const char* message);
-ERROR_E LogError(const char* message);
-ERROR_E LogInfo(const char* message);
-ERROR_E LogDebug(const char* message);
-ERROR_E LogSuccess(const char* message);
 
 /* --------------------------------- PRIVATE -------------------------------- */
 
