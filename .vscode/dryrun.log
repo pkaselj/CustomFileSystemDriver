@@ -1,9 +1,0 @@
-make.exe --dry-run --keep-going --print-directory
-make.exe: Entering directory `a:/PRIBACIT/FileSystem'
-echo EXE: build/main.exe
-echo SOURCES: src/logger.c
-echo INCLUDES: include/common.h include/logger.h
-echo OBJECTS:  build/logger.o
- 
-make.exe: Leaving directory `a:/PRIBACIT/FileSystem'
- 
