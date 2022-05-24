@@ -1,5 +1,6 @@
 #include "include/common_libs.h"
 #include "include/logger.h"
+#include "include/fs.h"
 
 int main()
 {
@@ -13,6 +14,8 @@ int main()
 
     err = LogDebug("This is an example test message!");
     err = LogInfo("Example info message.");
+
+    HFS* pFileSystemHandle = CreateFileSystemDriverInstance(NULL);
 
 
     DeinitializeLogger();

@@ -12,7 +12,7 @@ typedef struct _HFILE HFILE;
 HFS*    CreateFileSystemDriverInstance(const char* szFSRootPath);
 ERROR_E DestroyFileSystemDriverInstance(HFS* pFSHandle);
 
-ERROR_E OpenFile(HFS* pFSHandle, const char* szFileName, OUT HFILE** pFileHandleContainer);
+HFILE* OpenFile(HFS* pFSHandle, const char* szFileName);
 ERROR_E CloseFile(HFS* pFSHandle, HFILE* pFileHandle);
 
 // Returns bytes read
