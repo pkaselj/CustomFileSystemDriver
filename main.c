@@ -15,7 +15,14 @@ int main()
     err = LogDebug("This is an example test message!");
     err = LogInfo("Example info message.");
 
-    HFS* pFileSystemHandle = CreateFileSystemDriverInstance(NULL);
+    FS_ERROR error = FS_InitializeErrorContainer();
+    HFS* pFileSystemHandle = FS_CreateFileSystemDriverInstance(NULL, &error);
+    if(FS_IsError(error))
+    {
+        char const * szErrorMsg = FS_GetErrorInfoString(error);
+        // LogWarning(_DEBUG_MSG(szErrorMsg));
+        LogWarning(szErrorMsg);
+    }
 
 
     DeinitializeLogger();
